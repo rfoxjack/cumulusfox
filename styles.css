@@ -25,7 +25,7 @@ h2 {
     background-color: yellow;
     border-radius: 25px;
     border: 2px solid rgba(0,0,0,0.8);
-    margin-top: 16px;
+    margin-top: 48px;
     margin-bottom: 16px;
 
 }
@@ -106,14 +106,13 @@ header {
 }
 
 #projects {
-    margin-top: 24px;
     width: 80%;
 }
 
 .project-gallery {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 .project-gallery img {
@@ -124,6 +123,7 @@ header {
 figure {
     background-color: rgba(0,0,0,0.8);
     padding: 16px;
+    border-radius: 25px;
 }
 
 figcaption {
@@ -131,4 +131,12 @@ figcaption {
     font-size: 1.4rem;
     font-style: italic;
     text-align: center;
+}
+
+#team {
+    width: 80%;
+}
+
+.teammate img {
+    border-radius: 50%;
 }
