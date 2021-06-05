@@ -165,3 +165,27 @@ figcaption {
     color: rgba(0,0,0,0.8);
     font-style: italic;
 }
+
+#contact {
+    width: 80%;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#icon {
+    font-size: 4rem;
+    color: yellow;
+    background: rgba(0,0,0,0.8);
+    padding: 24px;
+    border-radius: 25px;
+}
+
+.contact {
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
