@@ -30,6 +30,12 @@ h2 {
 
 }
 
+h3 {
+    font-size: 1.5rem;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+
 /* Nav styling */
 nav {
     background-color: dimgray;
@@ -137,6 +143,25 @@ figcaption {
     width: 80%;
 }
 
+.teammate-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
 .teammate img {
+    width:250px;
     border-radius: 50%;
+    border: 8px solid rgba(0,0,0,0.8);
+}
+
+.teammate {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.teammate p {
+    color: rgba(0,0,0,0.8);
+    font-style: italic;
 }
