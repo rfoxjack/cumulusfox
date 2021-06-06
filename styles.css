@@ -177,7 +177,7 @@ figcaption {
 
 .contact-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content:space-around;
 }
 
@@ -204,4 +204,45 @@ footer {
     align-items:center;
     border-top: 4px solid yellow;
     color: rgba(211, 211, 211, 0.5);
+}
+
+@media only screen and (max-width: 1260px) {
+
+    .project-gallery {
+        height: 750px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-around;
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (max-width: 1014px) {
+    .teammate-container {
+        height: 700px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-around;
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .teammate-container {
+        height: 1050px;
+    }
+
+    .contact-container {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .project-gallery {
+        height: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-around;
+        flex-flow: row wrap;
+    }
 }
